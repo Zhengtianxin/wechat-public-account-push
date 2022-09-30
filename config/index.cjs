@@ -21,7 +21,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '猪猪包',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oDUvL6a5wZvbdJniuLDFK_8MUymc',//DUvL6dKFZZpElOYmlYfGVVNHxw8
+      id: 'DUvL6dKFZZpElOYmlYfGVVNHxw8',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'KjClVaAh3HDWIF0Zpf_mAm3sJ5Rv64YS8nwZNX2B_DI',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -29,7 +29,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '猪猪包', year: '2000', date: '06-22',
+          type: '*生日', name: '猪猪包', year: '2000', date: '05-24',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
@@ -44,7 +44,7 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2019-05-07' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-30' },
+        { keyword: 'marry_day', date: '2022-10-1' },
       ],
     },
   ],
